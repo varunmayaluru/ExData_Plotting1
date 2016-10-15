@@ -12,10 +12,6 @@ library(data.table)
 dataset <- fread("household_power_consumption.txt", sep = ";", header = T, stringsAsFactors = F,
                  na.strings = c(NA,"","?"))
 
-# subset data as per requirement
-
-dataset[between(Date, )]
-
 # Convert date to date format
 
 dataset[,Date := as.Date(Date, format = "%d/%m/%Y")]
