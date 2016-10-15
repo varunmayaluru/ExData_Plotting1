@@ -47,20 +47,3 @@ with(subset,plot(date_time, Global_reactive_power, type="l", xlab="",
                  ylab="Global_reactive_power"))
 
 dev.off()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

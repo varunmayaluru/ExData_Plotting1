@@ -31,19 +31,3 @@ with(subset,hist(Global_active_power, col="red", main="Global Active Power",
 
 dev.off()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
